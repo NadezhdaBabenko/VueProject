@@ -1,6 +1,6 @@
 <template>
     <button class="btn-main">
-        find out more
+        {{ title }}
     </button>
 </template>
 
@@ -26,7 +26,9 @@
 
     export default {
         name: 'App',
-
+        props: {
+            title: String
+        },
         data: () => ({
             //
         }),

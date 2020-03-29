@@ -7,7 +7,7 @@
             Fusce dapibus, tellus ac cursus commodo
         </div>
         <div class="download__btn-block">
-            <BtnMain class="download__btn"/>
+            <BtnMain class="download__btn" title="download"/>
         </div>
     </div>
     

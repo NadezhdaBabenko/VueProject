@@ -7,7 +7,7 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, porro est voluptate laboriosam et.
         </div>
         <div class="startInfo__btn-block">
-            <BtnMain class="startInfo__btn"/>
+            <BtnMain class="startInfo__btn" title="find out more"/>
         </div>
         
     </div>

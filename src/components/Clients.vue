@@ -142,7 +142,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 10%;
+            padding-top: 200px;
+            width: 50%;
         }
         &__title {
             font-size: 36px;
