@@ -2,11 +2,11 @@
     <div class="header container-fluid">
         <div class=" header__container container">
             <div class="row">
-                <div class="header__logo col-2">
+                <div class="header__logo col-4">
                     <img class="header__logo-img" src="../assets/imgs/main/active-box.png" alt="logo">
                 </div>
 
-                <Menu/>
+                <Menu class="col-8"/>
             </div>
 
         </div>

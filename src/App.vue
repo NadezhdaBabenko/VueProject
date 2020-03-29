@@ -5,6 +5,11 @@
     <Works/>
     <Team/>
     <Clients/>
+    <Download/>
+    <Footer/>
+    <Copyright/>
+
+
   </div>
 </template>
 
@@ -14,6 +19,12 @@ import Features from './components/Features';
 import Works from './components/Works';
 import Team from './components/Team';
 import Clients from './components/Clients';
+import Download from './components/Download';
+import Footer from './components/Footer';
+import Copyright from './components/Copyright';
+
+
+
 
 
 
@@ -26,7 +37,10 @@ export default {
     Features,
     Works,
     Team,
-    Clients
+    Clients,
+    Download,
+    Footer,
+    Copyright
   }
 }
 </script>
@@ -36,6 +50,6 @@ export default {
   font-family: Raleway, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #3b3e41;
 }
 </style>

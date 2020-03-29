@@ -1,5 +1,5 @@
 <template>
-    <div class="menu col-10">
+    <div class="menu">
         <nav class="menu__block navbar navbar-expand-lg navbar-dark">
             <button class="menu__btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,26 @@
 
 <style lang="scss">
     .menu {
+        display: flex;
+        justify-content: flex-end;
+        &__block {
+            justify-content: flex-end;
+        }
         &__link {
             font-size: 13px;
             text-transform: uppercase;
             font-weight: bold;
         }
     }
+
+    @media (max-width: 991px) {
+        .menu {
+            &__list {
+                background-color: #252c4b;
+                border-radius: 5px;
+                padding-left: 15px;
+            }
+    }
+    }
+
 </style>
