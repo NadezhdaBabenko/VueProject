@@ -3,6 +3,7 @@
     <StartPage/>
     <Features/>
     <Works/>
+    <Team/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import StartPage from './components/StartPage';
 import Features from './components/Features';
 import Works from './components/Works';
+import Team from './components/Team';
 
 
 
@@ -19,7 +21,8 @@ export default {
   components: {
     StartPage,
     Features,
-    Works
+    Works,
+    Team
   }
 }
 </script>
