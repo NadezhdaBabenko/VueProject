@@ -4,6 +4,7 @@
     <Features/>
     <Works/>
     <Team/>
+    <Clients/>
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import StartPage from './components/StartPage';
 import Features from './components/Features';
 import Works from './components/Works';
 import Team from './components/Team';
+import Clients from './components/Clients';
+
 
 
 
@@ -22,7 +25,8 @@ export default {
     StartPage,
     Features,
     Works,
-    Team
+    Team,
+    Clients
   }
 }
 </script>
