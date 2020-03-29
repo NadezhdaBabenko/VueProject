@@ -142,7 +142,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 200px;
+            padding-top: 150px;
             width: 50%;
         }
         &__title {
@@ -166,6 +166,17 @@
         .client {
             &__img {
                 display: none;
+            }
+        &__text-block {
+            width: 100%;
+        }
+        }
+    }
+
+    @media (max-width: 400px) {
+        .client {
+            &__title {
+                font-size: 30px;
             }
         }
     }
