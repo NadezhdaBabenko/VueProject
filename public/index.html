@@ -27,7 +27,14 @@
             console.log(data);
           }
         });
+        $.getJSON( "input.json", function( data ) {
+          $.each( data, function( key, val ) {
+            console.log(data);
+          });
+        });
       });
+
+      
 
     </script>
     
